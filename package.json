@@ -1,0 +1,19 @@
+{
+  "name": "aaowasi369-portfolio",
+  "version": "18.9.0",
+  "private": true,
+  "description": "Adaptive zero-runtime-dependency governance portfolio - v18.1 focus-pill loop + Drive artifacts + impeccable polish - Cloudflare + Vercel ready",
+  "scripts": {
+    "check": "node scripts/preflight.mjs",
+    "build": "node scripts/build.mjs",
+    "postbuild": "node scripts/verify-output.mjs",
+    "start": "node scripts/serve-static.mjs",
+    "verify": "npm run check && npm run build && npm run postbuild"
+  },
+  "engines": {
+    "node": ">=20 <24"
+  },
+  "dependencies": {
+    "motion": "^13.1.1"
+  }
+}

@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output
+out/
+dist/
+.next/
+.vercel/
+.wrangler/
+.cloudflare/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.map
